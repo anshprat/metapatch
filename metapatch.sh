@@ -11,3 +11,4 @@ then
 else
   echo "Installed version ${installed_version} seems to be latest version atm"
 fi
+exit ${is_update_available}
